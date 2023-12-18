@@ -1,0 +1,10 @@
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTra-19-9\bin\Debug\KiemTra-19-9.exe.config
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTra-19-9\bin\Debug\KiemTra-19-9.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTra-19-9\bin\Debug\KiemTra-19-9.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTra-19-9\obj\Debug\KiemTra-19-9.csproj.AssemblyReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTra-19-9\obj\Debug\KiemTra_19_9.Form1.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTra-19-9\obj\Debug\KiemTra_19_9.Properties.Resources.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTra-19-9\obj\Debug\KiemTra-19-9.csproj.GenerateResource.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTra-19-9\obj\Debug\KiemTra-19-9.csproj.CoreCompileInputs.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTra-19-9\obj\Debug\KiemTra-19-9.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTra-19-9\obj\Debug\KiemTra-19-9.pdb

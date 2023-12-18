@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLChoThueNha_BTLDataSet" targetNamespace="http://tempuri.org/QLChoThueNha_BTLDataSet.xsd" xmlns:mstns="http://tempuri.org/QLChoThueNha_BTLDataSet.xsd" xmlns="http://tempuri.org/QLChoThueNha_BTLDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLChoThueNha_BTLConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLChoThueNha_BTLConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.GUI.Properties.Settings.GlobalReference.Default.QLChoThueNha_BTLConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BaoCao1TableAdapter" GeneratorDataComponentClassName="BaoCao1TableAdapter" Name="BaoCao1" UserDataComponentName="BaoCao1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLChoThueNha_BTLConnectionString (Settings)" DbObjectName="QLChoThueNha_BTL.dbo.BaoCao1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MaNha, tiennhan FROM dbo.BaoCao1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MaNha" DataSetColumn="MaNha" />
+              <Mapping SourceColumn="tiennhan" DataSetColumn="tiennhan" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLChoThueNha_BTLDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="QLChoThueNha_BTLDataSet" msprop:Generator_DataSetName="QLChoThueNha_BTLDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BaoCao1" msprop:Generator_RowEvHandlerName="BaoCao1RowChangeEventHandler" msprop:Generator_RowDeletedName="BaoCao1RowDeleted" msprop:Generator_RowDeletingName="BaoCao1RowDeleting" msprop:Generator_RowEvArgName="BaoCao1RowChangeEvent" msprop:Generator_TablePropName="BaoCao1" msprop:Generator_RowChangedName="BaoCao1RowChanged" msprop:Generator_RowChangingName="BaoCao1RowChanging" msprop:Generator_TableClassName="BaoCao1DataTable" msprop:Generator_RowClassName="BaoCao1Row" msprop:Generator_TableVarName="tableBaoCao1" msprop:Generator_UserTableName="BaoCao1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaNha" msprop:Generator_ColumnPropNameInRow="MaNha" msprop:Generator_ColumnPropNameInTable="MaNhaColumn" msprop:Generator_ColumnVarNameInTable="columnMaNha" msprop:Generator_UserColumnName="MaNha" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tiennhan" msprop:Generator_ColumnPropNameInRow="tiennhan" msprop:Generator_ColumnPropNameInTable="tiennhanColumn" msprop:Generator_ColumnVarNameInTable="columntiennhan" msprop:Generator_UserColumnName="tiennhan" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

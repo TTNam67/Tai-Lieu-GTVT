@@ -1,0 +1,159 @@
+****LAB1***
+//Chọn 1 ổ cứng để phân vùng (Ở đây t sẽ phân vùng 3 ổ c d e tương ứng sdc, sdd, sde)
+<code>
+fdisk /dev/sdc
+</code>
+// Phân vùng
++10G
++20G
++30G
++ENTER
++40G
++ENTER
+w
+//Format
+<code>
+mkfs.ext4 /dev/sdc1
+mkfs.ext4 /dev/sdc2
+mkfs.ext4 /dev/sdc3
+mkfs.ext4 /dev/sdc5
+mkfs.ext4 /dev/sdc6
+</code>
+//Create Folder ()
+<code>
+mkdir /c1 /c2 /c3 /c5 /c6
+</code>
+//Checking: 
+<code>
+mount
+</code>
+//Auto mount
+<code>
+gedit /etc/fstab
+/dev/sdc1	/c1	ext4	defaults	0 0
+/dev/sdc2	/c2	ext4	defaults	0 0
+/dev/sdc3	/c3	ext4	defaults	0 0
+/dev/sdc5	/c5	ext4	defaults	0 0
+/dev/sdc6	/c6	ext4	defaults	0 0
+</code>
+**************READ THIS *********************
+Trước khi làm cái lab tiếp theo thì nên tạo 1 cái snap shot trước, đặt tên thế nào thì đặt. Ví dụ: LAB1_completed
+-----------------------------------------------------------------------------------------------------------------
+****LAB2 part1***
+- Trong bài này t dùng cái Volume TenSinhVien, nhớ phải để tên mấy cái này giống nhau.
+// Chuyển kiểu 3 ổ c,d,e sang kiểu LVm sử dụng:
+<code>
+fdisk /dev/sdc
+t
+1
+8e
+t
+2
+8e
+w
+</code>
+// Umount all
+<code>
+umount -a
+</code>
+// Tạo voulume vật lý:
+<code>
+pvcreate /dev/sdc1 /dev/sdd1 /dev/sde1
+nó hỏi yes/no thì điền hết là y (yes)
+</code>
+// Tạo 1 Volume group với tên sinh viên:
+<code>
+vgcreate TenSinhVien /dev/sdc1 /dev/sdd1 /dev/sde1
+</code>
+// Tạo 2 logical Volume LV1 LV2
+<code>
+lvcreate -L 15G -n LV1 TenSinhVien
+lvcreate -L 14G -n LV2 TenSinhVien
+</code>
+4. Định dạng các Logical Volume
+<code>
+mkfs.ext4 /dev/TenSinhVien/LV1
+mkfs.ext4 /dev/TenSinhVien/LV2
+</code>
+5. Tạo 2 thư mục tên BigData và BigMoney
+<code>
+mkdir /BigData /BigMoney
+</code>
+6. Mount tự động:
+<code>
+gedit /etc/fstab
+</code>
+ở đây xoá tất cả các cái m đã tạo trước đấy đi
+  Ví dụ:
+/dev/sdc1	/c1	ext4	defaults	0 0
+/dev/sdc2	/c2	ext4	defaults	0 0
+/dev/sdc3	/c3	ext4	defaults	0 0
+/dev/sdc5	/c5	ext4	defaults	0 0
+/dev/sdc6	/c6	ext4	defaults	0 0
+
+/dev/sdd1	/d1	ext4	defaults	0 0
+/dev/sdd2	/d2	ext4	defaults	0 0
+/dev/sdd3	/d3	ext4	defaults	0 0
+/dev/sdd5	/d5	ext4	defaults	0 0
+/dev/sdd6	/d6	ext4	defaults	0 0
+
+/dev/sde1	/e1	ext4	defaults	0 0
+/dev/sde2	/e2	ext4	defaults	0 0
+/dev/sde3	/e3	ext4	defaults	0 0
+/dev/sde5	/e5	ext4	defaults	0 0
+/dev/sde6	/e6	ext4	defaults	0 0
+Xoá hết đi không lỗi sml.
+Tiếp theo thêm những dòng này vào:
+/dev/TenSinhVien/LV1	/BigData	ext4	defaults	0 0
+
+/dev/TenSinhVien/LV2	/BigMoney	ext4	defaults	0 0
+
+Sau đó ấn Save
+Để yên cái cửa sổ gedit đấy.
+
+**Sau đấy bật một của sổ terminal mới**
+mount -a
+mount
+Rồi chụp cả cái của sổ terminal đấy.
+Sau đấy take snap (NHỚ)
+Rồi xong part 1.
+
+****LAB2 part2***
+*Note: Part này làm về cái gì?
+- Sau 1 thời gian dùng thì LV1 LV2 bị đầy, ta muốn mở rộng nó. 
+
+Ở cái cửa sổ Terminal vừa sử dụng lệnh mount, tiếp đến sẽ thực hiện tiếp trong đấy.
+
+**Tìm ổ cứng hiện nay đang rảnh dỗi để bổ sung vào.
+// Chuyển ổ cứng sang dạng PV
+<code>
+pvcreate /dev/sdc5
+Y(yes) -Cái mở rộng này không cần format như mấy cái trước
+</code>
+// Mở rộng
+vgextend TenSinhVien /dev/sdc5
+<code>
+lvextend -L +40G /dev/TenSinhVien/LV1 (Lúc này ổ LV1 sẽ có dung lượng từ 15 -> 55GB)
+</code>
+//Bước chụp ảnh Part 2:
+Ở của sổ Terminal vừa nãy, sử dụng lệnh
+
+history
+
+Sau đấy mở một cửa sổ Terminal khác rồi gõ lệnh:
+<code>
+lvdisplay
+</code>
+Tìm đến Volume mà có /dev/TenSinhVien/LV1 - có dung lượng 55GB vừa thêm vào 40GB í.
+
+Rồi chia mỗi cửa sổ terminal 1 bên:
++ 1 bên là cái ổ LV1 mà 55G vừa thêm dung lượng
++ 1 bên là lịch sử sử dụng câu lệnh để chứng minh đấy là code của m.
+Chụp ảnh lại.
+Từ từ, chưa xong, nhớ take a snap mỗi lần làm cái gì đó thay đổi để sau làm trò con bò gì còn back up lại được
+Có thể đặt tên snap này là: add 40G to logical volume LV1
+Xong!
+
+
+
+

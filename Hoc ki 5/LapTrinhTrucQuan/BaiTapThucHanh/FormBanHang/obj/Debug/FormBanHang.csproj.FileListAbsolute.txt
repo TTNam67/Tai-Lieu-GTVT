@@ -1,0 +1,30 @@
+D:\WebDesign\FormBanHang\bin\Debug\FormBanHang.exe.config
+D:\WebDesign\FormBanHang\bin\Debug\FormBanHang.exe
+D:\WebDesign\FormBanHang\bin\Debug\FormBanHang.pdb
+D:\WebDesign\FormBanHang\obj\Debug\FormBanHang.csproj.AssemblyReference.cache
+D:\WebDesign\FormBanHang\obj\Debug\FormBanHang.Form1.resources
+D:\WebDesign\FormBanHang\obj\Debug\FormBanHang.Properties.Resources.resources
+D:\WebDesign\FormBanHang\obj\Debug\FormBanHang.csproj.GenerateResource.cache
+D:\WebDesign\FormBanHang\obj\Debug\FormBanHang.csproj.CoreCompileInputs.cache
+D:\WebDesign\FormBanHang\obj\Debug\FormBanHang.exe
+D:\WebDesign\FormBanHang\obj\Debug\FormBanHang.pdb
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\bin\Debug\FormBanHang.exe.config
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\bin\Debug\FormBanHang.exe
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\bin\Debug\FormBanHang.pdb
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.csproj.AssemblyReference.cache
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.Form1.resources
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.Properties.Resources.resources
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.csproj.GenerateResource.cache
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.csproj.CoreCompileInputs.cache
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.exe
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\bin\Debug\FormBanHang.exe.config
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\bin\Debug\FormBanHang.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\bin\Debug\FormBanHang.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.csproj.AssemblyReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.Form1.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.Properties.Resources.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.csproj.GenerateResource.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.csproj.CoreCompileInputs.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\FormBanHang\obj\Debug\FormBanHang.pdb

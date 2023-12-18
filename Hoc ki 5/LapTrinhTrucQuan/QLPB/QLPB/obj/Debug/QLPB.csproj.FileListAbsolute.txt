@@ -1,0 +1,20 @@
+C:\Users\LENOVO\source\repos\QLPB\QLPB\bin\Debug\QLPB.exe.config
+C:\Users\LENOVO\source\repos\QLPB\QLPB\bin\Debug\QLPB.exe
+C:\Users\LENOVO\source\repos\QLPB\QLPB\bin\Debug\QLPB.pdb
+C:\Users\LENOVO\source\repos\QLPB\QLPB\obj\Debug\QLPB.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\QLPB\QLPB\obj\Debug\QLPB.Form1.resources
+C:\Users\LENOVO\source\repos\QLPB\QLPB\obj\Debug\QLPB.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\QLPB\QLPB\obj\Debug\QLPB.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\QLPB\QLPB\obj\Debug\QLPB.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\QLPB\QLPB\obj\Debug\QLPB.exe
+C:\Users\LENOVO\source\repos\QLPB\QLPB\obj\Debug\QLPB.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\QLPB\QLPB\bin\Debug\QLPB.exe.config
+D:\Hoc ki 5\LapTrinhTrucQuan\QLPB\QLPB\bin\Debug\QLPB.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\QLPB\QLPB\bin\Debug\QLPB.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\QLPB\QLPB\obj\Debug\QLPB.csproj.AssemblyReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\QLPB\QLPB\obj\Debug\QLPB.Form1.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\QLPB\QLPB\obj\Debug\QLPB.Properties.Resources.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\QLPB\QLPB\obj\Debug\QLPB.csproj.GenerateResource.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\QLPB\QLPB\obj\Debug\QLPB.csproj.CoreCompileInputs.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\QLPB\QLPB\obj\Debug\QLPB.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\QLPB\QLPB\obj\Debug\QLPB.pdb

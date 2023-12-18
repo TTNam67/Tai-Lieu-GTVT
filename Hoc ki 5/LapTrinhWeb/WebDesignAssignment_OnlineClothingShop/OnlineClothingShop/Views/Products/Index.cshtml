@@ -1,0 +1,166 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common;
+@model IPagedList<OnlineClothingShop.Models.TbProduct>
+
+@{
+
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/LayoutAdmin.cshtml";
+
+}
+
+<h1>Product Manage</h1>
+
+<p>
+    <a asp-action="Create" style="display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;">Create New</a>
+</p>
+
+<table class="table table-striped ">
+
+    <thead>
+
+        <tr>
+
+            <th>
+
+                ProductName
+
+            </th>
+
+            <th>
+
+                Price
+
+            </th>
+
+            <th>
+
+                Discount
+
+            </th>
+
+            <th>
+
+                SingImage
+
+            </th>
+
+            <th>
+
+                Active
+
+            </th>
+
+            <th>
+
+                UnitInStock
+
+            </th>
+
+            <th>
+
+                Cat
+
+            </th>
+
+            <th></th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+
+            <tr>
+
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.ProductName)
+
+                </td>
+
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.Price)
+
+                </td>
+
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.Discount)
+
+                </td>
+
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.SingleImg)
+
+                </td>
+
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.Active)
+
+                </td>
+
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.UnitsInStock)
+
+                </td>
+
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.Cat.CatName)
+
+                </td>
+
+                <td>
+
+                    <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
+
+                    <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
+
+                    <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+
+                </td>
+
+            </tr>
+
+        }
+
+    </tbody>
+
+</table>
+
+@{
+
+    var page = Model.PageNumber;
+
+    var pageSize = ViewBag.pageSize;
+
+}
+
+<div class="pagination justify-content-center mb-3">
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", "Products", new { page = page, pageSize = pageSize }),new PagedListRenderOptions(){
+
+    LiElementClasses = new string[]{"page-item"},
+
+    PageClasses = new string[] {"page-link"}
+
+    })
+
+</div>

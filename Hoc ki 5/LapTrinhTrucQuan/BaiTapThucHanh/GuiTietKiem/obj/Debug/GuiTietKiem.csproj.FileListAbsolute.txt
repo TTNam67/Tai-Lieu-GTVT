@@ -1,0 +1,11 @@
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\GuiTietKiem\obj\Debug\GuiTietKiem.csproj.AssemblyReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\GuiTietKiem\obj\Debug\GuiTietKiem.csproj.ResolveComReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\GuiTietKiem\obj\Debug\GuiTietKiem.Form1.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\GuiTietKiem\obj\Debug\Bai2.Properties.Resources.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\GuiTietKiem\obj\Debug\GuiTietKiem.csproj.GenerateResource.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\GuiTietKiem\obj\Debug\GuiTietKiem.csproj.CoreCompileInputs.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\GuiTietKiem\obj\Debug\Bai2.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\GuiTietKiem\obj\Debug\Bai2.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\GuiTietKiem\bin\Debug\Bai2.exe.config
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\GuiTietKiem\bin\Debug\Bai2.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\GuiTietKiem\bin\Debug\Bai2.pdb

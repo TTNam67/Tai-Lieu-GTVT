@@ -1,0 +1,31 @@
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\bin\Debug\Bai2.exe.config
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\bin\Debug\Bai2.exe
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\bin\Debug\Bai2.pdb
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.csproj.AssemblyReference.cache
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.Form1.resources
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.Properties.Resources.resources
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.csproj.GenerateResource.cache
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.csproj.CoreCompileInputs.cache
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.exe
+E:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\bin\Debug\Bai2.exe.config
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\bin\Debug\Bai2.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\bin\Debug\Bai2.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.csproj.AssemblyReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.Form1.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.Properties.Resources.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.csproj.GenerateResource.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.csproj.CoreCompileInputs.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\Bai2\obj\Debug\Bai2.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\TrinhThanhNam Buoi 1\Bai2\bin\Debug\Bai2.exe.config
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\TrinhThanhNam Buoi 1\Bai2\bin\Debug\Bai2.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\TrinhThanhNam Buoi 1\Bai2\bin\Debug\Bai2.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\TrinhThanhNam Buoi 1\Bai2\obj\Debug\Bai2.csproj.AssemblyReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\TrinhThanhNam Buoi 1\Bai2\obj\Debug\Bai2.csproj.ResolveComReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\TrinhThanhNam Buoi 1\Bai2\obj\Debug\Bai2.Form1.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\TrinhThanhNam Buoi 1\Bai2\obj\Debug\Bai2.Properties.Resources.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\TrinhThanhNam Buoi 1\Bai2\obj\Debug\Bai2.csproj.GenerateResource.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\TrinhThanhNam Buoi 1\Bai2\obj\Debug\Bai2.csproj.CoreCompileInputs.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\TrinhThanhNam Buoi 1\Bai2\obj\Debug\Bai2.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\BaiTapThucHanh\TrinhThanhNam Buoi 1\Bai2\obj\Debug\Bai2.pdb

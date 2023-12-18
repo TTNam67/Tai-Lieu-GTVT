@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>÷ Shop</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewData["Title"] - Management System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap4/bootstrap.min.css">
+    <link href="~/lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="~/lib/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="~/lib/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="~/lib/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/css/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="~/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="~/lib/jquery-ui-1.12.1.custom/jquery-ui.css">
+    
+    @* Shop *@
+    <link rel="stylesheet" type="text/css" href="~/css/categories_styles.css">
+    <link rel="stylesheet" type="text/css" href="~/css/categories_responsive.css">
+    
+    @* Detail product *@
+    <link rel="stylesheet" type="text/css" href="~/css/single_styles.css">
+    <link rel="stylesheet" type="text/css" href="~/css/single_responsive.css">
+
+    @* Contact *@
+    <link rel="stylesheet" type="text/css" href="~/css/contact_styles.css">
+    <link rel="stylesheet" type="text/css" href="~/css/contact_responsive.css">
+
+</head>
+
+<body>
+
+    <div class="super_container">
+
+        <!-- Header -->
+        <header class="header trans_300">
+            @* Begin Top Nav *@
+            <partial name="_TopNav" />
+            @* End Top Nav *@
+
+            @* Begin Main Nav *@
+            <partial name="_MainNav" />
+            @* End Main Nav *@
+        </header>
+
+        @RenderBody()
+
+            @* Begin Footer and Newsletter *@
+            <partial name="_Newsletter" />
+            @* End Footer and Newsletter *@
+        </div>
+        @* Begin Footer and Newsletter *@
+        <partial name="_Footer" />
+        @* End Footer and Newsletter *@
+    </div>
+
+    <script src="~/js/jquery-3.2.1.min.js"></script>
+    <script src="~/lib/bootstrap4/popper.js"></script>
+    <script src="~/lib/bootstrap4/bootstrap.min.js"></script>
+    <script src="~/lib/Isotope/isotope.pkgd.min.js"></script>
+    <script src="~/lib/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="~/lib/easing/easing.js"></script>
+    <script src="~/js/custom.js"></script>
+    <script src="~/lib/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+    @* Shop *@
+    <script src="~/js/categories_custom.js"></script>
+
+    @* Detail Product *@
+    <script src="~/js/single_custom.js"></script>
+
+    @* Contact *@
+    <script src="~/js/contact_custom.js"></script>
+
+    
+    @await RenderSectionAsync("Scripts", required:false);
+</body>
+
+</html>

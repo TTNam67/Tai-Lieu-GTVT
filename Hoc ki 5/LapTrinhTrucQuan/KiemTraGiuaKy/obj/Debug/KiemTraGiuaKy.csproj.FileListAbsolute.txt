@@ -1,0 +1,10 @@
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTraGiuaKy\bin\Debug\KiemTraGiuaKy.exe.config
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTraGiuaKy\bin\Debug\KiemTraGiuaKy.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTraGiuaKy\bin\Debug\KiemTraGiuaKy.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTraGiuaKy\obj\Debug\KiemTraGiuaKy.csproj.AssemblyReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTraGiuaKy\obj\Debug\KiemTraGiuaKy.Form1.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTraGiuaKy\obj\Debug\KiemTraGiuaKy.Properties.Resources.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTraGiuaKy\obj\Debug\KiemTraGiuaKy.csproj.GenerateResource.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTraGiuaKy\obj\Debug\KiemTraGiuaKy.csproj.CoreCompileInputs.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTraGiuaKy\obj\Debug\KiemTraGiuaKy.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\KiemTraGiuaKy\obj\Debug\KiemTraGiuaKy.pdb

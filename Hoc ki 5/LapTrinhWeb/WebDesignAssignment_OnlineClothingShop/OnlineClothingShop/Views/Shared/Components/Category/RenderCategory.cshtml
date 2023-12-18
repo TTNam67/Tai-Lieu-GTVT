@@ -1,0 +1,10 @@
+﻿@model IEnumerable<TbCategory>
+
+        @foreach (var m in Model)
+        {
+            <li class="nav-item" id="@m.CatId">
+                <a class="nav-link">@m.CatName</a>
+            </li>
+        }
+
+   
