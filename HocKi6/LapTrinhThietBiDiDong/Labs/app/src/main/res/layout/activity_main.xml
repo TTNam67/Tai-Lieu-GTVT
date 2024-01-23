@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        android:orientation="vertical">
+        >
+
+        <EditText
+            android:id="@+id/editTextHoTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Họ và tên"
+
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextSoDienThoai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại" />
+
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/radioGroupGender"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonMale"
+                android:text="Male" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonFemale"
+                android:text="Female"
+                android:layout_marginLeft="@android:dimen/thumbnail_width"
+                />
+
+
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spinnerQueQuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bóng đá"
+                android:id="@+id/checkboxFootball"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bơi"
+                android:id="@+id/checkboxSwimming"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đọc sách"
+                android:id="@+id/checkboxReading"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewDanhSach"
+
+
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
