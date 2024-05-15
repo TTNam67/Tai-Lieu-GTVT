@@ -1,0 +1,10 @@
+D:\Hoc ki 5\LapTrinhTrucQuan\(2023 - 10 - 24) LuyenTapCSDL\bin\Debug\(2023 - 10 - 24) LuyenTapCSDL.exe.config
+D:\Hoc ki 5\LapTrinhTrucQuan\(2023 - 10 - 24) LuyenTapCSDL\bin\Debug\(2023 - 10 - 24) LuyenTapCSDL.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\(2023 - 10 - 24) LuyenTapCSDL\bin\Debug\(2023 - 10 - 24) LuyenTapCSDL.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\(2023 - 10 - 24) LuyenTapCSDL\obj\Debug\(2023 - 10 - 24) LuyenTapCSDL.csproj.AssemblyReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\(2023 - 10 - 24) LuyenTapCSDL\obj\Debug\_2023___10___24__LuyenTapCSDL.Form1.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\(2023 - 10 - 24) LuyenTapCSDL\obj\Debug\_2023___10___24__LuyenTapCSDL.Properties.Resources.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\(2023 - 10 - 24) LuyenTapCSDL\obj\Debug\(2023 - 10 - 24) LuyenTapCSDL.csproj.GenerateResource.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\(2023 - 10 - 24) LuyenTapCSDL\obj\Debug\(2023 - 10 - 24) LuyenTapCSDL.csproj.CoreCompileInputs.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\(2023 - 10 - 24) LuyenTapCSDL\obj\Debug\(2023 - 10 - 24) LuyenTapCSDL.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\(2023 - 10 - 24) LuyenTapCSDL\obj\Debug\(2023 - 10 - 24) LuyenTapCSDL.pdb

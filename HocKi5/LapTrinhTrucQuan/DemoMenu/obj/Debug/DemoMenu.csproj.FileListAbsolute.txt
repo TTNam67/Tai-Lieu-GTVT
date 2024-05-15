@@ -1,0 +1,17 @@
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\bin\Debug\DemoMenu.exe.config
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\bin\Debug\DemoMenu.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\bin\Debug\DemoMenu.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\bin\Debug\Interop.WMPLib.dll
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\bin\Debug\AxInterop.WMPLib.dll
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\DemoMenu.csproj.AssemblyReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\Interop.WMPLib.dll
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\AxInterop.WMPLib.dll
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\DemoMenu.csproj.ResolveComReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\DemoMenu.Form1.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\DemoMenu.Properties.Resources.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\DemoMenu.csproj.GenerateResource.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\DemoMenu.csproj.CoreCompileInputs.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\DemoMenu.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\DemoMenu.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\DemoMenu.HinhChuNhat.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\DemoMenu\obj\Debug\DemoMenu.GiaiPTBac1.resources

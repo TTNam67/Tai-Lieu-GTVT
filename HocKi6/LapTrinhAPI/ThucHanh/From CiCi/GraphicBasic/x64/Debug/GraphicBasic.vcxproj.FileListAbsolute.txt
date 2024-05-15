@@ -1,0 +1,2 @@
+D:\API\GraphicBasic\x64\Debug\GraphicBasic.exe
+D:\Documents\API\GraphicBasic\x64\Debug\GraphicBasic.exe

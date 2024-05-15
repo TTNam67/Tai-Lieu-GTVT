@@ -1,0 +1,48 @@
+﻿@model IEnumerable<TbProduct>
+
+<div class="main_content">
+    <!-- Products -->
+    <div class="products_iso">
+        <div class="row">
+            <div class="col">
+                <!-- Product Grid -->
+                <div class="product-grid" style="display: flex;flex-wrap:wrap;">
+                    <!-- Product -->
+                    @foreach (var item in Model)
+                    {
+                        <div class="product-item @(item.CatId == 3 ? "men" : item.CatId == 1 ? "women" : item.CatId == 2 ? "accessories" : "shop")">
+                            <div class="product discount product_filter">
+                                <div class="product_image">
+                                    <img src="~/images/Product/@item.ThumbImg" alt="">
+                                </div>
+                                <div class="favorite favorite_left"></div>
+                                @if (item.Discount > 0)
+                                {
+                                    <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$@item.Discount%</span></div>
+                                }
+                                <div class="product_info">
+                                    <h6 class="product_name"><a asp-action="Detail" asp-controller="Product" asp-route-id="@item.ProductId">@item.ProductName</a></h6>
+                                    @if ((@item.Price - (@item.Price * @item.Discount / 100)) < @item.Price)
+                                    {
+                                        <div class="product_price">
+                                            $@(@item.Price - (@item.Price * @item.Discount / 100))
+                                            <span>$@item.Price</span>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="product_price">
+                                            $@item.Price
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                            <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        

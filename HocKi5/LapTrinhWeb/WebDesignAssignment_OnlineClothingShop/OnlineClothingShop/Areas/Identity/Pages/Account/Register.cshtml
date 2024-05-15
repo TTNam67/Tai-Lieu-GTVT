@@ -1,0 +1,116 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/LogLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="~/plugins/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <style>
+        @@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+
+    <!-- Main css -->
+    @* <link rel="stylesheet" href="~/css/style.css"> *@
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        section {
+            text-align: center;
+            margin: 10% auto;
+            max-width: 400px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .form-floating {
+            margin-top: 10px;
+        }
+
+            .form-floating input {
+                border: 1px solid #ccc;
+                padding: 10px;
+            }
+
+            .form-floating span {
+                display: block;
+                margin-top: 5px;
+                color: #ff0000; /* Màu đỏ cho thông báo lỗi */
+            }
+
+        #registerSubmit {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <!-- Sign in Form -->
+        <section>
+            <h2>Create a new account</h2>
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-floating">
+                    <input asp-for="Input.FirstName" class="form-control" autocomplete="Lastname" aria-required="true" placeholder="First Name" />
+                    <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating">
+                    <input asp-for="Input.LastName" class="form-control" autocomplete="Firstname" aria-required="true" placeholder="Last Name" />
+                    <span asp-validation-for="Input.LastName" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating">
+                    <input asp-for="Input.PhoneNumber" class="form-control" autocomplete="phone" aria-required="true" placeholder="Phone Number" />
+                    <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating">
+                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Email" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating">
+                    <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Password" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating">
+                    <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Confirm Password" />
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- JS -->
+    <script src="~/plugins/vendor/jquery/jquery.min.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

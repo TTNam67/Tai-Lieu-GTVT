@@ -1,0 +1,24 @@
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\bin\Debug\QlSinhVien.mdf
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\bin\Debug\QlSinhVien_log.ldf
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\bin\Debug\QLSinhVien.exe.config
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\bin\Debug\QLSinhVien.exe
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\bin\Debug\QLSinhVien.pdb
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.csproj.AssemblyReference.cache
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.Form1.resources
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.Properties.Resources.resources
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.csproj.GenerateResource.cache
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.csproj.CoreCompileInputs.cache
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.exe
+F:\document\Ki 5\Lap Trinh Web\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\bin\Debug\QlSinhVien.mdf
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\bin\Debug\QlSinhVien_log.ldf
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\bin\Debug\QLSinhVien.exe.config
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\bin\Debug\QLSinhVien.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\bin\Debug\QLSinhVien.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.csproj.AssemblyReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.Form1.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.Properties.Resources.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.csproj.GenerateResource.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.csproj.CoreCompileInputs.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\QLSinhVien_17-10\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.pdb

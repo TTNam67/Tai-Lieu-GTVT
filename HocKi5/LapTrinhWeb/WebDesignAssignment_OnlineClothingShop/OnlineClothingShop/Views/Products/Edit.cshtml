@@ -1,0 +1,101 @@
+﻿@model OnlineClothingShop.Models.TbProduct
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>TbProduct</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Products" asp-action="Edit" asp-route-id="@Model.ProductId" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ProductId" />
+            <div class="form-group">
+                <label asp-for="ProductName" class="control-label"></label>
+                <input asp-for="ProductName" class="form-control" />
+                <span asp-validation-for="ProductName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShortDesc" class="control-label"></label>
+                <input asp-for="ShortDesc" class="form-control" />
+                <span asp-validation-for="ShortDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CatId" class="control-label"></label>
+                <select asp-for="CatId" class="form-control" asp-items="ViewBag.CatId"></select>
+                <span asp-validation-for="CatId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Discount" class="control-label"></label>
+                <input asp-for="Discount" class="form-control" />
+                <span asp-validation-for="Discount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThumbImg" class="control-label"></label>
+                <input asp-for="ThumbImg" class="form-control" />
+                <span asp-validation-for="ThumbImg" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SingleImg" class="control-label"></label>
+                <input asp-for="SingleImg" class="form-control" />
+                <span asp-validation-for="SingleImg" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescImg" class="control-label"></label>
+                <input asp-for="DescImg" class="form-control" />
+                <span asp-validation-for="DescImg" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateCreated" class="control-label"></label>
+                <input asp-for="DateCreated" class="form-control" />
+                <span asp-validation-for="DateCreated" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateModified" class="control-label"></label>
+                <input asp-for="DateModified" class="form-control" />
+                <span asp-validation-for="DateModified" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BestSellers" class="control-label"></label>
+                <input asp-for="BestSellers" class="form-control" />
+                <span asp-validation-for="BestSellers" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HomeFlag" class="control-label"></label>
+                <input asp-for="HomeFlag" class="form-control" />
+                <span asp-validation-for="HomeFlag" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Active" class="control-label"></label>
+                <input asp-for="Active" class="form-control" />
+                <span asp-validation-for="Active" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UnitsInStock" class="control-label"></label>
+                <input asp-for="UnitsInStock" class="form-control" />
+                <span asp-validation-for="UnitsInStock" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

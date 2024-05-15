@@ -1,0 +1,81 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+    Layout = "~/Views/Shared/LogLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="~/plugins/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <style>
+        @@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+    <style>
+        @@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+    </style>
+
+    <!-- Main css -->
+    @* <link rel="stylesheet" href="~/css/style.css"> *@
+</head>
+<body>
+
+    <div class="main">
+        <!-- Sign in Form -->
+        <section class="sign-in" style="text-align: center; margin: 10% auto; max-width: 300px; padding: 20px; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+            <h1 style="font-family: 'Roboto', sans-serif;">@ViewData["Title"]</h1>
+
+            <form id="account" method="post">
+
+                <div asp-validation-summary="ModelOnly" class="text-danger" style="margin-top: 10px;"></div>
+
+                <div class="form-floating" style="margin-top: 10px;">
+                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Email" style="border: 1px solid #ccc; font-family: 'Roboto', sans-serif;" />
+                    <span asp-validation-for="Input.Email" class="text-danger" style="display: block; margin-top: 5px;"></span>
+                </div>
+
+                <div class="form-floating" style="margin-top: 10px;">
+                    <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="Password" style="border: 1px solid #ccc; font-family: 'Roboto', sans-serif;" />
+                    <span asp-validation-for="Input.Password" class="text-danger" style="display: block; margin-top: 5px;"></span>
+                </div>
+
+                <div style="margin-top: 10px;">
+                    <div class="form-check">
+                        <label asp-for="Input.RememberMe" class="form-check-label" style="font-weight: normal; font-family: 'Roboto', sans-serif;">
+                            <input class="form-check-input" asp-for="Input.RememberMe" />
+                            @Html.DisplayNameFor(m => m.Input.RememberMe)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-floating form-button" style="margin-top: 20px;">
+                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary" style="font-family: 'Roboto', sans-serif;">Log in</button>
+                </div>
+
+                <div style="margin-top: 10px;">
+                    <p>
+                        <a id="forgot-password" asp-page="./ForgotPassword" style="text-decoration: none; color: #007bff; font-family: 'Roboto', sans-serif;">Quên mật khẩu của bạn?</a>
+                    </p>
+                    <p>
+                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" style="text-decoration: none; color: #007bff; font-family: 'Roboto', sans-serif;">Đăng ký thành người dùng mới</a>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <!-- JS -->
+    <script src="~/plugins/vendor/jquery/jquery.min.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

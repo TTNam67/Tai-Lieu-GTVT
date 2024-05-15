@@ -1,0 +1,10 @@
+D:\Hoc ki 5\LapTrinhTrucQuan\ThiKetThucHocPhan\bin\Debug\ThiKetThucHocPhan.exe.config
+D:\Hoc ki 5\LapTrinhTrucQuan\ThiKetThucHocPhan\bin\Debug\ThiKetThucHocPhan.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\ThiKetThucHocPhan\bin\Debug\ThiKetThucHocPhan.pdb
+D:\Hoc ki 5\LapTrinhTrucQuan\ThiKetThucHocPhan\obj\Debug\ThiKetThucHocPhan.csproj.AssemblyReference.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\ThiKetThucHocPhan\obj\Debug\ThiKetThucHocPhan.Form1.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\ThiKetThucHocPhan\obj\Debug\ThiKetThucHocPhan.Properties.Resources.resources
+D:\Hoc ki 5\LapTrinhTrucQuan\ThiKetThucHocPhan\obj\Debug\ThiKetThucHocPhan.csproj.GenerateResource.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\ThiKetThucHocPhan\obj\Debug\ThiKetThucHocPhan.csproj.CoreCompileInputs.cache
+D:\Hoc ki 5\LapTrinhTrucQuan\ThiKetThucHocPhan\obj\Debug\ThiKetThucHocPhan.exe
+D:\Hoc ki 5\LapTrinhTrucQuan\ThiKetThucHocPhan\obj\Debug\ThiKetThucHocPhan.pdb
